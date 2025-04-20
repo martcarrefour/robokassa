@@ -1,6 +1,6 @@
 {
   "name": "@martcarrefour/robokassa",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Robokassa Node.JS integration",
   "types": "lib/index.d.ts",
   "keywords": [
