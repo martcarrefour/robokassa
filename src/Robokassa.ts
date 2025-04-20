@@ -22,7 +22,6 @@ export class Robokassa {
       order.invId = 0;
     }
 
-
     if (typeof order.outSum === 'number') {
       order.outSum = order.outSum.toFixed(2);
     }
