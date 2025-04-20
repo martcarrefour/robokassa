@@ -1,5 +1,8 @@
 # Robokassa Node.JS
 
+> ⚠️ _Этот пакет является форком [@dev-aces/robokassa](https://www.npmjs.com/package/@dev-aces/robokassa)_  
+> ✅ Добавлена поддержка **рекуррентных платежей** (повторные и материнские)
+
 Пакет [Robokassa](https://docs.robokassa.ru) для Node.JS.
 
 Поддерживает JavaScript и TypeScript.
@@ -11,7 +14,7 @@
 ## Установка
 
 ```sh
-$ npm install @dev-aces/robokassa
+$ npm install @martcarrefour/robokassa
 ```
 
 # Использование
@@ -23,7 +26,7 @@ $ npm install @dev-aces/robokassa
 TypeScript:
 
 ```typescript
-import { Robokassa } = from '@dev-aces/robokassa';
+import { Robokassa } = from '@martcarrefour/robokassa';
 
 const robokassa = new Robokassa({
   merchantLogin: 'my_merchant_login',
@@ -64,7 +67,7 @@ const url = robokassa.generatePaymentUrl({
 JavaScript:
 
 ```javascript
-const { Robokassa } = require('@dev-aces/robokassa');
+const { Robokassa } = require('@martcarrefour/robokassa');
 
 // Остальное аналогично TypeScript примеру.
 ```
@@ -80,7 +83,7 @@ Result URL для подтверждения и обработки успешн�
 TypeScript:
 
 ```typescript
-import { Robokassa, IRobokassaResponse } = from '@dev-aces/robokassa';
+import { Robokassa, IRobokassaResponse } = from '@martcarrefour/robokassa';
 import express, { Request, Response } from 'express';
 
 const robokassa = new Robokassa({
