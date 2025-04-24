@@ -1,7 +1,7 @@
 # Robokassa Node.JS
 
-> ⚠️ _Этот пакет является форком [@dev-aces/robokassa](https://www.npmjs.com/package/@dev-aces/robokassa)_  
-> ✅ Добавлена поддержка **рекуррентных платежей** ([документация](https://docs.robokassa.ru/recurring/))
+> ⚠️ _Этот пакет был форком [@dev-aces/robokassa](https://www.npmjs.com/package/@dev-aces/robokassa). Обратите внимание, что оригинальный репозиторий теперь активно поддерживается._  
+> ✅ В этой версии добавлена поддержка **рекуррентных платежей** ([документация](https://docs.robokassa.ru/recurring/))
 
 Пакет [Robokassa](https://docs.robokassa.ru) для Node.JS.
 

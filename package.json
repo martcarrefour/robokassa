@@ -1,7 +1,7 @@
 {
   "name": "@martcarrefour/robokassa",
-  "version": "1.2.2",
-  "description": "Robokassa Node.JS integration",
+  "version": "1.2.3",
+  "description": "Robokassa Node.JS integration (Note: Original repository is now actively maintained)",
   "types": "lib/index.d.ts",
   "keywords": [
     "robokassa",
@@ -32,7 +32,11 @@
     "README.md"
   ],
   "main": "lib/index.js",
-  "repository": "https://github.com/martcarrefour/robokassa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martcarrefour/robokassa"
+  },
+  "originalRepository": "https://github.com/dev-aces/robokassa",
   "author": "Artur Ampilogov",
   "maintainers": [
     {

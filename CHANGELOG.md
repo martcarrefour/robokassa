@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.2.3 - 2023-xx-xx
+### Changed
+- Обновлена документация с информацией о том, что оригинальный репозиторий [@dev-aces/robokassa](https://www.npmjs.com/package/@dev-aces/robokassa) теперь активно поддерживается.
+- Рекомендуется использовать оригинальный пакет для новых проектов.
+
 ## 1.1.1 = 2025-04-20
 ### Added
 - Recurring payment support added
